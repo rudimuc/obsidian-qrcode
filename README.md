@@ -23,11 +23,11 @@ From Obsidian v0.9.8, you can activate this plugin within Obsidian by doing the 
 
 Type the `qrcode` keyword to use the QR code plugin.
 
-![Screenshot](https://github.com/rudimuc/obsidian-qrcode/raw/main/obsidian-raw.png)
+![Screenshot](https://raw.githubusercontent.com/rudimuc/obsidian-qrcode/main/obsidian_raw.png)
 
 The result will be this:
 
-![Screenshot](https://github.com/rudimuc/obsidian-qrcode/raw/main/obsidian-rendered.png)
+![Screenshot](https://raw.githubusercontent.com/rudimuc/obsidian-qrcode/main/obsidian_rendered.png)
 
 
 ## Version History
