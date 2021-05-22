@@ -59,8 +59,9 @@ You have the following options:
 
 ## Version History
 ### 1.0.1
-- New Keyword for complex QR Codes with settings
+- Fixed Issue #1 New Keyword for complex QR Codes with settings
 - Plugin class name changed
+
 ### 1.0.0
 - Initial Release
 
