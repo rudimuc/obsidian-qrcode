@@ -3,6 +3,9 @@ import QRCode from 'qrcode'
 
 export default class QrCodePlugin extends Plugin {
 	
+	/**
+	* Function for processing Content-only QR code blocks
+	*/
 	postprocessorRaw = async (content: string, el: HTMLElement, ctx: MarkdownPostProcessorContext) => {
 		const destination = document.createElement('canvas');
 		if(content.endsWith("\n")) {
@@ -14,6 +17,9 @@ export default class QrCodePlugin extends Plugin {
 		return;
 	}
 
+	/**
+	* Function for processing JSON like QR code blocks
+	*/
 	postprocessorComplex = async (content: string, el: HTMLElement, ctx: MarkdownPostProcessorContext) => {
 		const destination = document.createElement('canvas');
 		let [text, parameters] = this.readParameters(content);
