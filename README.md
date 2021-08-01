@@ -57,7 +57,7 @@ You have the following options:
 |margin|optional (default = 4)| Define how much wide the quiet zone should be.
 |dark|optional (default = #000000)| RGB or RGBA Hex-Code for the dark Pixels
 |light|optional (default = #FFFFFF)| RGB or RGBA Hex-Code for the light Pixels
-|errorCorrectionLevel|optional (default = L)| Defines the error resistance. Possible values: L = 7% | M = 15% | Q = 25% | H = 30% - The percentage indicates the maximum amount of damaged surface after which the symbol becomes unreadable.
+|errorCorrectionLevel|optional (default = L)| Defines the error resistance. Possible values: L = 7% / M = 15% / Q = 25% / H = 30% - The percentage indicates the maximum amount of damaged surface after which the symbol becomes unreadable.
 
 ## Version History
 ### 1.0.2
