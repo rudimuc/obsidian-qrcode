@@ -32,8 +32,12 @@ export default class QrCodePlugin extends Plugin {
 		let params = JSON.parse(jsonString);
 		var options: {[k:string]: any} = {};
 		options.color = {light: "#ffffff", dark: "#000000"};
+		options.errorCorrectionLevel = 'M';
 		if (params.width !== undefined) {
 			options.width = params.width;
+		}
+		if (params.errorCorrectionLevel !== undefined) {
+			options.errorCorrectionLevel = params.errorCorrectionLevel;
 		}
 		if (params.margin !== undefined) {
 			options.margin = params.margin;
