@@ -50,7 +50,7 @@ For complex QR Code generation (which means customizable codes) use the keyword 
 
 You have the following options:
 
-|parameter|required|example|
+|parameter|required|description|
 |--|--|--|
 |text  |yes  | The data/content for the code
 |width|optional (default = auto)| integer value for the size
