@@ -23,9 +23,9 @@ From Obsidian v0.9.8, you can activate this plugin within Obsidian by doing the 
 
 Type the `qrcode` keyword to use the QR Code Plugin.
 
-```yaml
+```markdown
 ```qrcode
-    https://github.com
+https://github.com
 ```
 ```
 
@@ -35,17 +35,17 @@ The result will be this:
 
 For complex QR Code generation (which means customizable codes) use the keyword `qrcode-complex` instead.
 
-```yaml
-    ```qrcode-complex
-    {
-        "text": "this is my data",
-        "width": 400,
-        "margin": 20,
-        "dark": "#0FF",
-        "light": "#FFF",
-        "errorCorrectionLevel": "M"
-    }
-    ```
+```markdown
+```qrcode-complex
+{
+   "text": "this is my data",
+   "width": 400,
+   "margin": 20,
+   "dark": "#0FF",
+   "light": "#FFF",
+   "errorCorrectionLevel": "M"
+}
+```
 ```
 
 You have the following options:
