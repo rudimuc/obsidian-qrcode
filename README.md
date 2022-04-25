@@ -24,9 +24,9 @@ From Obsidian v0.9.8, you can activate this plugin within Obsidian by doing the 
 Type the `qrcode` keyword to use the QR Code Plugin.
 
 ```yaml
-    ```qrcode
-        https://github.com
-    ```
+```qrcode
+    https://github.com
+```
 ```
 
 The result will be this:
