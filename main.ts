@@ -1,5 +1,7 @@
 import { Plugin, MarkdownPostProcessorContext, Notice } from 'obsidian';
-import QRCode from 'qrcode'
+
+//import QRCode from 'qrcode'
+import { QRCode, toCanvas } from 'qrcode'
 
 export default class QrCodePlugin extends Plugin {
 	
@@ -12,7 +14,7 @@ export default class QrCodePlugin extends Plugin {
 			// Obsidian gives an unpretty linebreak at the end. Don't encode it in our QR Code!
 			content = content.substring(0, content.length - 1);
 		}
-		QRCode.toCanvas(destination, content);
+		toCanvas(destination, content);
 		el.appendChild(destination);
 		return;
 	}
@@ -23,7 +25,7 @@ export default class QrCodePlugin extends Plugin {
 	postprocessorComplex = async (content: string, el: HTMLElement, ctx: MarkdownPostProcessorContext) => {
 		const destination = document.createElement('canvas');
 		let [text, parameters] = this.readParameters(content);
-		QRCode.toCanvas(destination, text, parameters);
+		toCanvas(destination, text, parameters);
 		el.appendChild(destination);
 		return;
 	}
