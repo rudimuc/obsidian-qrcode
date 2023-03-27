@@ -60,6 +60,10 @@ You have the following options:
 |errorCorrectionLevel|optional (default = L)| Defines the error resistance. Possible values: L = 7% / M = 15% / Q = 25% / H = 30% - The percentage indicates the maximum amount of damaged surface after which the symbol becomes unreadable.
 
 ## Version History
+### 1.1.0
+- Fixed the import issue
+- Updated to qrcode lib version 1.5
+
 ### 1.0.2
 - Error Correction Level added
 

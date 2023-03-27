@@ -1,7 +1,7 @@
 {
 	"id": "obsidian-qrcode-plugin",
 	"name": "QR Code Generator Plugin",
-	"version": "1.0.2",
+	"version": "1.1.0",
 	"minAppVersion": "0.9.12",
 	"description": "This is a QR Code Generator plugin for Obsidian.",
 	"author": "Rudi Häusler",
