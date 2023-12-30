@@ -1,6 +1,5 @@
 import { Plugin, MarkdownPostProcessorContext, Notice } from 'obsidian';
 
-//import QRCode from 'qrcode'
 import { QRCode, toCanvas } from 'qrcode'
 
 export default class QrCodePlugin extends Plugin {
@@ -32,7 +31,7 @@ export default class QrCodePlugin extends Plugin {
 	
 	private readParameters(jsonString: any) {
 		let params = JSON.parse(jsonString);
-		var options: {[k:string]: any} = {};
+		let options: {[k:string]: any} = {};
 		options.color = {light: "#ffffff", dark: "#000000"};
 		options.errorCorrectionLevel = 'M';
 		if (params.width !== undefined) {
@@ -54,12 +53,7 @@ export default class QrCodePlugin extends Plugin {
 	}
 
 	async onload() {
-		console.log('loading plugin');
 		this.registerMarkdownCodeBlockProcessor('qrcode', this.postprocessorRaw);
 		this.registerMarkdownCodeBlockProcessor('qrcode-complex', this.postprocessorComplex);
-	}
-
-	onunload() {
-		console.log('unloading plugin');
 	}
 }
