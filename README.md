@@ -61,6 +61,9 @@ You have the following options:
 
 ## Version History
 
+### 1.2.1
+- Issue #7: Changed the plugin name to be compliant with the Obsidian rules.
+
 ### 1.2.0
 - Updated to new plugin structure
 - Some small code refactorings

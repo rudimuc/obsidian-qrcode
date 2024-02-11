@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-qrcode-plugin",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"description": "converts text into QR Codes",
 	"main": "main.js",
 	"scripts": {
