@@ -1,3 +1,7 @@
+[![Stars](https://img.shields.io/github/stars/rudimuc/obsidian-qrcode?style=flat)](https://github.com/rudimuc/obsidian-qrcode/stargazers)
+[![Downloads](https://img.shields.io/github/downloads/rudimuc/obsidian-qrcode/total.svg)](https://github.com/rudimuc/obsidian-qrcode/releases)
+[![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-blue)](#)
+
 # QR Code Generator Obsidian Plugin
 
 This is a plugin for [Obsidian](https://obsidian.md) to display QR Codes.
@@ -81,4 +85,12 @@ You have the following options:
 
 ### 1.0.0
 - Initial Release
+
+
+
+## 📈 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=rudimuc/obsidian-qrcode&type=Date)](https://star-history.com/#rudimuc/obsidian-qrcode)
+
+
 
